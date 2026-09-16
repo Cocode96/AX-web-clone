@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_align_7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1053.000000, -44.000000)">
+            <g id="icon" transform="translate(58.000000, 44.000000)">
+                <g id="align" transform="translate(794.000000, 0.000000)">
+                    <g id="ic_align_7" transform="translate(194.000000, 0.000000)">
+                        <g transform="translate(16.000000, 9.000000) rotate(-90.000000) translate(-16.000000, -9.000000) translate(7.000000, 0.000000)">
+                            <path d="M8.5,0.5 L8.5,17.5" id="Line" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <rect id="Rectangle-4" fill="#000000" transform="translate(8.500000, 5.000000) rotate(-270.000000) translate(-8.500000, -5.000000) " x="6.5" y="-1.5" width="4" height="13" rx="0.5"></rect>
+                            <rect id="Rectangle-4-Copy" fill="#000000" transform="translate(8.500000, 13.000000) rotate(-270.000000) translate(-8.500000, -13.000000) " x="6.5" y="9.5" width="4" height="7" rx="0.5"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" color="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+      <g fill="none" fill-rule="evenodd" color="rgb(0, 0, 0)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+        <g fill="rgb(78, 78, 78)" color="rgb(0, 0, 0)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+          <g color="rgb(0, 0, 0)" fill="rgb(78, 78, 78)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+            <g color="rgb(0, 0, 0)" fill="rgb(78, 78, 78)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+              <g color="rgb(0, 0, 0)" fill="rgb(78, 78, 78)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+                <g transform="translate(-1012 -523) translate(932 88) translate(0 405) translate(80 30) translate(7 6)" color="rgb(0, 0, 0)" fill="rgb(78, 78, 78)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+                  <rect width="12" height="1" y="6" rx=".5" color="rgb(0, 0, 0)" fill="rgb(78, 78, 78)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+                  <path d="M.5 6h11c.276 0 .5.224.5.5s-.224.5-.5.5H.5C.224 7 0 6.776 0 6.5S.224 6 .5 6z" transform="rotate(-90 6 6.5)" color="rgb(0, 0, 0)" fill="rgb(78, 78, 78)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>

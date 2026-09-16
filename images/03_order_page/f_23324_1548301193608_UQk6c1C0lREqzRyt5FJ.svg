@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="12" viewBox="0 0 8 12">
+    <defs>
+        <path id="b" d="M0 0h487v650H0z"/>
+        <filter id="a" width="110.3%" height="107.7%" x="-5.1%" y="-3.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-648-656H792V368H-648z"/>
+        <path fill="#000" d="M-648-656H792V368H-648z" opacity=".298"/>
+        <g transform="translate(-171 -469)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <path fill="#F8F9FA" d="M-91-18h327v48H-91z"/>
+        <path fill="#4167B2" d="M4.673 11.554v-5.27h2.123l.318-2.054h-2.44V2.918c0-.594.198-1 1.22-1H7.2V.08C6.974.056 6.2 0 5.298 0c-1.882 0-3.17.957-3.17 2.715V4.23H0v2.054h2.128v5.27h2.545z"/>
+    </g>
+</svg>

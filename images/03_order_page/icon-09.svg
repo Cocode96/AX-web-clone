@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" color="rgb(159, 159, 159)" fill="rgb(0, 0, 0)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+      <g fill="none" fill-rule="evenodd" color="rgb(159, 159, 159)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+        <g color="rgb(159, 159, 159)" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+          <g color="rgb(159, 159, 159)" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+            <g transform="translate(-24 -627) translate(24 610) translate(0 17)" color="rgb(159, 159, 159)" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px">
+              <rect width="17.286" height="1" x="2.357" y="4.696" fill="rgb(78, 78, 78)" rx=".5" color="rgb(159, 159, 159)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+              <path fill="rgb(78, 78, 78)" d="M1.971 4.696H3.75c.253 0 .458.205.458.458s-.205.458-.458.458H1.97c-.253 0-.458-.205-.458-.458s.205-.458.458-.458z" transform="rotate(-90 2.86 5.154)" color="rgb(159, 159, 159)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+              <path fill="rgb(78, 78, 78)" d="M5.06 9.316h1.104c.253 0 .458.206.458.459s-.205.458-.458.458H5.06c-.253 0-.458-.205-.458-.458s.205-.459.458-.459z" transform="rotate(-90 5.612 9.775)" color="rgb(159, 159, 159)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+              <path fill="rgb(78, 78, 78)" d="M10.448 9.316h1.104c.253 0 .458.206.458.459s-.205.458-.458.458h-1.104c-.253 0-.458-.205-.458-.458s.205-.459.458-.459z" transform="rotate(-90 11 9.775)" color="rgb(159, 159, 159)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+              <path fill="rgb(78, 78, 78)" d="M13.142 9.316h1.104c.253 0 .458.206.458.459s-.205.458-.458.458h-1.104c-.253 0-.458-.205-.458-.458s.205-.459.458-.459z" transform="rotate(-90 13.694 9.775)" color="rgb(159, 159, 159)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+              <path fill="rgb(78, 78, 78)" d="M6.744 10.327h3.124c.253 0 .459.205.459.458s-.206.458-.459.458H6.744c-.253 0-.458-.205-.458-.458s.205-.458.458-.458z" transform="rotate(-90 8.306 10.785)" color="rgb(159, 159, 159)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+              <path fill="rgb(78, 78, 78)" d="M14.826 10.327h3.124c.253 0 .458.205.458.458s-.205.458-.458.458h-3.124c-.253 0-.459-.205-.459-.458s.206-.458.459-.458z" transform="rotate(-90 16.388 10.785)" color="rgb(159, 159, 159)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+              <path fill="rgb(78, 78, 78)" d="M18.251 4.696h1.778c.253 0 .458.205.458.458s-.205.458-.458.458H18.25c-.253 0-.458-.205-.458-.458s.205-.458.458-.458z" transform="rotate(-90 19.14 5.154)" color="rgb(159, 159, 159)" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1px" />
+              <rect width="16.417" height="8.167" x="2.745" y="8.806" stroke="rgb(78, 78, 78)" rx=".5" color="rgb(159, 159, 159)" fill="none" fill-opacity="1" stroke-opacity="1" stroke-width="1px" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>

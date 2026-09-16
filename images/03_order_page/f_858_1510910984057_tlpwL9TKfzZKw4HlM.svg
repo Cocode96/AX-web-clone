@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+    <g fill="none" fill-rule="evenodd" stroke="#212529" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7.263.5h-.5V1"/>
+        <path stroke-dasharray="1.232,2.463" d="M6.763 3.463v2.463"/>
+        <path d="M6.763 7.158v.5h.5"/>
+        <path stroke-dasharray="0.6950000000000001,1.389" d="M8.653 7.658h1.389"/>
+        <path d="M10.737 7.658h.5v.5"/>
+        <path stroke-dasharray="1.232,2.463" d="M11.237 10.621v2.463"/>
+        <path d="M11.237 14.316v.5h.5"/>
+        <path stroke-dasharray="1.053,2.105" d="M13.842 14.816h2.105"/>
+        <path d="M17 14.816h.5v-.5"/>
+        <path stroke-dasharray="1.072,2.143" d="M17.5 12.172V4.973L14.847 2.32 13.026.5H8.335"/>
+        <path d="M6.763 7.658V3.184H.5V17.5h10.737V7.658z"/>
+        <path d="M6.763 7.658h4.474L6.763 3.184z"/>
+    </g>
+</svg>

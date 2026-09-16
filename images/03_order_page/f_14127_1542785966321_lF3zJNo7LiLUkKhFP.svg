@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_forward</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-409.000000, -44.000000)">
+            <g id="icon" transform="translate(58.000000, 44.000000)">
+                <g id="ic_forward" transform="translate(340.000000, 0.000000)">
+                    <path d="M18.9545455,7 L28.0454545,7 C28.572506,7 29,7.42749399 29,7.95454545 L29,17.0454545 C29,17.572506 28.572506,18 28.0454545,18 L18.9545455,18 C18.427494,18 18,17.572506 18,17.0454545 L18,7.95454545 C18,7.42749399 18.427494,7 18.9545455,7 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                    <polygon id="Path" fill="#000000" fill-rule="nonzero" points="19 17 28 17 28 8 19 8"></polygon>
+                    <path d="M11.9545455,0 L20.0454545,0 C20.572506,0 21,0.427493989 21,0.954545455 L21,9.04545455 C21,9.57250601 20.572506,10 20.0454545,10 L11.9545455,10 C11.427494,10 11,9.57250601 11,9.04545455 L11,0.954545455 C11,0.427493989 11.427494,0 11.9545455,0 Z M12,9 L20,9 L20,1 L12,1 L12,9 Z" id="Fill-3-Copy-2" fill="#000000" fill-rule="nonzero"></path>
+                    <g id="arrow" transform="translate(13.500000, 14.500000) scale(1, -1) rotate(-270.000000) translate(-13.500000, -14.500000) translate(10.000000, 12.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline id="Stroke-1" points="0.5 3.00307492 0.5 0.49997 3 0.49997"></polyline>
+                        <path d="M0.332995297,0.956154057 C1.27138596,1.86579575 2.57980534,4.27128227 6.16316139,3.58588184" id="Stroke-3" transform="translate(3.248078, 2.331604) rotate(9.000000) translate(-3.248078, -2.331604) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

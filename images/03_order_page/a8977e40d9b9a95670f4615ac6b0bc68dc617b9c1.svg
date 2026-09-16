@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+    <defs>
+        <filter id="uxouwwfw1a" width="110.7%" height="113.2%" x="-5.3%" y="-6.6%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#uxouwwfw1a)" transform="translate(-277 -606) translate(0 365)">
+                <g>
+                    <g>
+                        <path stroke="#D5DBE0" d="M79.5.5v31H.5V.5h79z" transform="translate(24 230) translate(247)"/>
+                        <path fill="#ADB5BD" d="M8 19v2H6v-2h2zm4 0v2h-2v-2h2zm4 0v2h-2v-2h2zm-6-2v2H8v-2h2zm4 0v2h-2v-2h2zm-6-2v2H6v-2h2zm4 0v2h-2v-2h2zm4 0v2h-2v-2h2zm-2-2v2h-2v-2h2zm-4 0v2H8v-2h2zm-2-2v2H6v-2h2zm4 0v2h-2v-2h2zm4 0v2h-2v-2h2z" transform="translate(24 230) translate(247)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
