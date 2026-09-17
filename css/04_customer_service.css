@@ -246,6 +246,13 @@
     font-size: 18px;
     line-height: 1;
     letter-spacing: -0.03em;
+    transition: background-color 0.2s;
+}
+
+/* 마우스와 키보드로 선택했을 때 같은 색으로 강조한다. */
+.customer-service .login-button:hover,
+.customer-service .login-button:focus-visible {
+    background-color: #005cc9;
 }
 
 /* 게임 목록: 원본 목록 너비 990px에 좌우 여백 25px씩을 더한다. */
