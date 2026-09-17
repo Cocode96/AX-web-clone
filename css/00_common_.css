@@ -1,0 +1,56 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/* 전역 변수 선언 */
+
+:root {
+    --primary-font-family: "Noto Sans KR", sans-serif;
+    --primary-font-size: 13px;
+    --primary-font-color: #313131;
+    --primary-layout-max-size: 727px;
+    --primary-layout-min-size: 320px;
+}
+
+/* 스타일 초기화 작업 */
+
+* {
+    outline: none;
+}
+
+body {
+    margin: 0;
+}
+
+ul, ol, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+/* 스타일 공통 설정 */
+
+* {
+    box-sizing: border-box;
+    font-family: var(--primary-font-family);
+}
+
+html {
+    font-size: var(--primary-font-size);
+    background: #FAFBFC;
+    height: 100%;
+}
+
+body {
+    color: var(--primary-font-color);
+    max-width: var(--primary-layout-max-size);
+    min-width: var(--primary-layout-min-size);
+    min-height: 700px;
+    margin: 0 auto;
+}

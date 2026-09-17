@@ -1,0 +1,15 @@
+header {
+    height: 20%
+}
+
+main {
+    height: 70%;
+}
+footer {
+    border: 3px solid #FAFBFC;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    height: 10%;
+    color: #9197A4;
+}
