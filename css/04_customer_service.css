@@ -252,7 +252,7 @@
 .customer-service .game-section {
     max-width: 1040px;
     margin: 0 auto;
-    padding: 29px 25px 60px;
+    padding: 29px 25px 30px;
 }
 
 .customer-service .game-toolbar {
@@ -304,10 +304,27 @@
     line-height: 1.57;
     letter-spacing: -0.48px;
     text-align: center;
+    word-break: keep-all;
 }
 
 /* 그림자만 바뀌므로 마우스를 올려도 카드의 크기와 배치는 유지된다. */
 .customer-service .game-card:hover,
 .customer-service .game-card:focus-visible {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* 푸터는 본문 밖에 있으므로 페이지 전체를 기준으로 정렬한다. */
+.customer-service .site-footer {
+    min-height: 89px;
+    margin-top: 17px;
+    padding: 36px 20px 34px;
+    border-top: 1px solid #ebebeb;
+    text-align: center;
+}
+
+.customer-service .site-footer small {
+    display: block;
+    color: #888888;
+    font-size: 11px;
+    line-height: 1.57;
 }
