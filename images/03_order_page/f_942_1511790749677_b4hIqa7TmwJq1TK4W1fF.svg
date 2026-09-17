@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="12" height="5" viewBox="0 0 12 5">
-    <g fill="none" fill-rule="evenodd" stroke="#ADB5BD">
-        <path d="M9 0l2 2.5L9 5"/>
-        <path stroke-linecap="square" d="M10.5 2.5h-9"/>
-        <path d="M3 0L1 2.5 3 5"/>
-    </g>
-</svg>
