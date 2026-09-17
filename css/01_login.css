@@ -5,7 +5,11 @@ body {
     margin: 0;
 }
 
-ul, ol, dt, dd, dl {
+ul,
+ol,
+dt,
+dd,
+dl {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -18,6 +22,7 @@ img {
 a {
     text-decoration: none;
 }
+
 /* 초기화 E */
 
 /* 공통 스타일 S */
@@ -28,6 +33,11 @@ a {
     --primary-font-color: #0A0A0A;
 }
 
+section {
+    padding-left: 16px;
+    padding-right: 16px;
+    ;
+}
 
 * {
     font-family: var(--font-main);
@@ -43,10 +53,10 @@ body {
 }
 
 
-input[type='text'], 
-input[type='email'], 
-input[type='password'], 
-input[type='submit'] {
+input[type='text'],
+input[type='submit'],
+input[type='email'],
+input[type='password'] {
     width: 100%;
     height: 56px;
     border: 1px solid rgb(220 224 229);
@@ -55,7 +65,15 @@ input[type='submit'] {
     font-size: 1.15rem;
 }
 
-input + input {
+
+input[type='email']:focus,
+input[type='password']:focus {
+    border: 1px solid #0A74FF;
+    outline: none;
+}
+
+
+input+input {
     margin-top: 13px;
 }
 
@@ -68,20 +86,25 @@ input[type='submit'] {
     background: #000;
     color: #fff;
     cursor: pointer;
+    margin-top: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
 input[type='submit']:hover {
     background: #0A74FF;
 }
 
-button[type="button"]:hover{
+
+button[type="button"]:hover {
     color: #000;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 
-button[type="button"]:{
+button[type="button"] {
     color: #000;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 button {
@@ -89,9 +112,6 @@ button {
     padding: 0;
 }
 
-input[type="checkbox"]{
-    border-color:gray
-}
 /* 공통 스타일 S */
 
 
@@ -103,46 +123,114 @@ input[type="checkbox"]{
     margin: 162px auto 100px;
 }
 
-.login_tabs{
-    display:flex;
-    justify-content: space-evenly;
+.login_tabs {
+    display: flex;
+    justify-content: space-around;
 }
 
-.login_tabs:hover{
-    color:#0A0A0A
+.login_tabs:hover {
+    color: #0A0A0A
 }
 
-.login_tabs:focus{
+.login_tabs:focus {
     text-decoration: underline;
 }
 
 
-.login_tabs>button{
-    background:transparent;
-    border:none;
-    color:gray;
-    padding:12px;
+.login_tabs>button {
+    background: transparent;
+    border: none;
+    color: gray;
+    padding: 12px;
+
 }
 
-.find_my{
+.innersection {
+    margin-top: 40px;
+}
+
+.stay label{
+    color:#222522;
+    font-size: 10.5px;
+    margin-left: 7px;
+}
+.stay input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+
+    border: 1px solid #b0b8c1;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+}
+
+.stay{
     display:flex;
-    flex-direction: row;
+    align-items: start;
+    margin-top:10px;
 }
 
-.find_my>a{
-    color:gray;
+.below_login{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+.find_my {
+    display: flex;
+}
+
+.find_my>a {
+    color: gray;
     margin-right: 12px;
     margin-top: 10px;
 }
-.find_my>a:hover{
+
+.find_my>a:hover {
     text-decoration: underline;
 }
 
-security_center>a{
-    color:#0A74FF;
+.security_center{
+    display:flex;
+}
+.security_center>a {
+    color: #0A74FF;
+    margin-right: 12px;
+    margin-top: 10px;
 }
 
-.alt_account > div {
+.security_center>a img{
+    width:16px;
+    height:16px;
+}
+
+.OR{
+    display:flex;
+    justify-content: center;
+    align-items: calc();
+    margin-top: 35px;
+}
+
+.OR>div{
+    font-weight: bold;
+    color:gray;
+}
+
+
+
+
+
+.altlog{
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.alt_account>div {
     display: flex;
     justify-content: center;
 
@@ -151,12 +239,42 @@ security_center>a{
     margin: 0 auto;
 }
 
-.alt_account > div button {
+.alt_account>div button {
     background: transparent;
 }
 
-.nexon{
+.nexon {
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
 }
+
+.stay>input {
+    margin-left: 8px;
+}
+
+.promo img{
+    width: 100%;
+    height:auto;
+    display:block;
+    margin-top: 52px;
+}
+
+hr{
+    margin:0;
+    border:0;
+    border-top: 1px solid #9097A3;
+}
+
+.copyright{
+    color:#9097A3;
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 400;
+    padding: 15px;
+
+    display:flex;
+    justify-content: center;
+    
+}
+
