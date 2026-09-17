@@ -153,3 +153,57 @@
 .customer-service .site-nav a:hover {
     color: #17191d;
 }
+
+/* 본문: 왼쪽 메뉴는 고정 너비, 오른쪽 콘텐츠는 남은 공간을 사용한다. */
+.customer-service .service-layout {
+    display: flex;
+}
+
+.customer-service .sidebar {
+    flex: 0 0 80px;
+    color: #ffffff;
+    background-color: #696d74;
+    text-align: center;
+}
+
+.customer-service .service-content {
+    flex: 1;
+    min-width: 0;
+}
+
+/* 배경은 본문 높이를 채우고, 안쪽 메뉴만 화면 위에 붙인다. */
+.customer-service .sidebar nav {
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.customer-service .sidebar a {
+    display: block;
+}
+
+.customer-service .platform-menu li,
+.customer-service .banner-menu li {
+    border-bottom: 1px solid #7c8189;
+}
+
+.customer-service .platform-menu a {
+    padding: 20px 0;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.customer-service .platform-menu a[aria-current="true"],
+.customer-service .sidebar a:hover,
+.customer-service .sidebar a:focus-visible {
+    background-color: #484b50;
+}
+
+.customer-service .support-menu {
+    padding: 7px 0;
+}
+
+.customer-service .support-menu a {
+    padding: 7px 0;
+}
