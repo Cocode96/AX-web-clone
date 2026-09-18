@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--css 파일 불러오기-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xpressengine/xeicon@2.4.0/xeicon.min.css">
     <link rel="stylesheet" href="../css/02_main_page.css">
 </head>
 <body>
@@ -12,12 +13,13 @@
 <!--1. 상단 메뉴 + 헤더 구성-->
     <header class="header">
         <button type="button" class="btn-menu">
-            <span class="icon-menu"></span>메뉴
+           <i class='xi-bars xi-2x'></i>메뉴
         </button>
 
-        <h1 class="logo">
-            <a href="#">Brand LOGO</a>
-        </h1>
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="NEXON 로고">
+        </a>
+        
 
         <div class="right-mp">
             <!--<span>선물 아이콘</span>--> 
@@ -27,26 +29,23 @@
     </header>
 
 <!--================================================================-->
-
+<main>
 <!--2-1. 대표 배너 1장 배치 슬라이드 화면-->
         <section class="main-banner">
-            <h2 class="main-banner-title"></h2>
-
-            <a href="#">
-                <img src="tree.jpg">
-            </a>
-
-            <!--배너 하단 탭-->
-            <ul class="main-banner-tabs">
-                <li><a href="#">게임1</a></li>
-                <li><a href="#">게임2</a></li>
-                <li><a href="#">게임3</a></li>
-                <li><a href="#">게임4</a></li>
-            </ul>
+            <!-- 배너 하단 탭 -->
+            <div class='tabs-wrap'>
+                <ul class="main-banner-tabs">
+                    <li><a href="#">게임1</a></li>
+                    <li><a href="#">게임2</a></li>
+                    <li><a href="#">게임3</a></li>
+                    <li><a href="#">게임4</a></li>
+                    <li><a href="#">게임5</a></li>
+                </ul>
+            </div>
         </section>
 
 <!--2-2. 서브 배너 1장 배치 & 로그인 화면-->
-        <section class="sub-banner">
+        <section class="sub-banner content-width">
             <h2 class="sub-banner-title">추천 게임</h2>
             
             <!--서브 배너 1장 배치-->
@@ -242,6 +241,7 @@
                 </li>
             </ul>
         </section>
+    </main>
 <!--================================================================-->
 <!--4. footer 구성-->
 

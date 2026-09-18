@@ -1,44 +1,121 @@
+:root {
+  --primary-content-max-width: 1280px;
+  --primary-content-min-width: 950px;
+  --primary-font-color: #17191d;
+}
+
+/* 초기화 */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: var(--primary-font-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 공통 스타일 */
+.content-width {
+  max-width: var(--primary-content-max-width);
+  min-width: var(--primary-content-min-width);
+  width: 100%;
+  margin: 0 auto;
+}
+
 /*1. 상단 메뉴 + 헤더 구성*/
 
 .header {
-  position: relative;   /* 로고 절대위치 기준점 */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: 63px;
   padding: 0 20px;
   background-color: #fff;
   border-bottom: 1px solid #eee;
 }
 
+/* 사이트 상단 로고 */
+.header .logo img {
+  height: 100%;
+  display: block;
+}
+
+
 /* 왼쪽 메뉴 버튼 */
-.btn-menu {
+.header .btn-menu {
+  border: 0;
+  background: #fff;
   display: flex;
   align-items: center;
-  gap: 6px;
-  background: none;
-  border: none;
-  font-size: 14px;
   cursor: pointer;
 }
 
-.icon-menu {
-  width: 20px;
-  height: 20px;
+.header .btn-menu i {
+  margin-right: 5px;
 }
 
-/* 가운데 로고 - 절대 위치로 중앙 고정 */
-.logo {
+.header .btn-menu:hover {
+  color: #07f;
+}
+
+/* 메인 배너 */
+section.main-banner {
+  height: 498px;
+  background: url('../html/images/main_banner.jpg') no-repeat center center;
+  background-size : cover;
+  position: relative;
+}
+
+section.main-banner .tabs-wrap {
+  width: 100%;
   position: absolute;
+  bottom: 0;
 }
 
-.logo a {
+section.main-banner .main-banner-tabs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: var(--primary-content-max-width);
+  min-width: var(--primary-content-min-width);
+  width: 100%;
+  margin: 0 auto;
+}
+section.main-banner .main-banner-tabs li {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background: rgba(0,0,0,0.3);
+  padding: 10px;
+  cursor: pointer;
+}
+section.main-banner .main-banner-tabs li:hover {
+  background: rgba(0,0,0,0.5);
+}
+
+
+section.main-banner .main-banner-tabs li a {
+  color: #fff;
+}
+
+/* 왼쪽 메뉴 버튼 */
+/* ㄱ
+/* 가운데 로고 - 절대 위치로 중앙 고정 */
+/* .logo a {
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 2px;
   color: #000;
   text-decoration: none;
-}
+} */
 
 /* 오른쪽 유틸 영역 */
 .right-mp {
