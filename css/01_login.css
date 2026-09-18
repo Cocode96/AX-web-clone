@@ -102,15 +102,11 @@ button[type="button"]:hover {
 }
 
 
-button[type="button"] {
-    color: #000;
-    cursor: pointer;
-}
-
 button {
     border: 0;
     padding: 0;
 }
+
 
 /* 공통 스타일 S */
 
@@ -124,26 +120,42 @@ button {
 }
 
 .login_tabs {
-    display: flex;
-    justify-content: space-around;
+    padding-bottom: 35px;
+    width: 350px;
+    margin: 0 auto;
 }
 
-.login_tabs:hover {
-    color: #0A0A0A
-}
-
-.login_tabs:focus {
-    text-decoration: underline;
+.login_tabs input[type='radio'] {
+    display: none;
 }
 
 
-.login_tabs>button {
-    background: transparent;
-    border: none;
-    color: gray;
-    padding: 12px;
-
+.login_tabs input[type='radio']+label {
+    width: calc(100% / 3);
+    color:gray;
+    text-align: center;
+    display: block;
+    float: left;
+    border-bottom: 2px solid #f8f8f8;
+    padding-bottom: 15px;
+    cursor: pointer;
 }
+
+.login_tabs input[type='radio']:checked+label {
+    border-bottom-color: #000;
+    color:#000;
+    font-weight: 600;
+}
+
+.login_tabs::after {
+    content: '';
+    clear: left;
+}
+
+.login_tabs input[type='radio']+label:hover{
+    color:#0A0A0A
+}
+
 
 .innersection {
     margin-top: 40px;
@@ -169,58 +181,86 @@ button {
     display:flex;
     align-items: start;
     margin-top:10px;
+
+    font-size: 12px;
 }
 
 .below_login{
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
 
-
+.find_my>button{
+    font-size: 14px;
+}
 
 .find_my {
     display: flex;
+    column-gap: 12px;
 }
 
-.find_my>a {
+.find_my>button {
+    background: none;
     color: gray;
-    margin-right: 12px;
-    margin-top: 10px;
 }
 
-.find_my>a:hover {
+.find_my>button:hover {
+    color:gray;
     text-decoration: underline;
 }
 
-.security_center{
-    display:flex;
-}
-.security_center>a {
+.security_center>button {
     color: #0A74FF;
-    margin-right: 12px;
-    margin-top: 10px;
+    background:none;
+
+    display:flex;
+    align-items: center;
 }
 
-.security_center>a img{
+.security_center>button:hover {
+    color: #0A74FF;
+    text-decoration: underline;
+}
+
+.security_center> div img{
     width:16px;
     height:16px;
 }
 
 .OR{
-    display:flex;
-    justify-content: center;
-    align-items: calc();
+    text-align: center;
     margin-top: 35px;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
 }
 
-.OR>div{
+.OR>span{
     font-weight: bold;
     color:gray;
 }
 
+.OR::after,
+.OR::before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: calc(50% - 30px);
+    display: block;
+    background: #ccc;
+    top: 12px;
+    
+}
 
+.OR::before {
+    left: 0;
+}
 
-
+.OR::after {
+    right: 0;
+}
 
 .altlog{
     display:flex;
@@ -260,11 +300,7 @@ button {
     margin-top: 52px;
 }
 
-hr{
-    margin:0;
-    border:0;
-    border-top: 1px solid #9097A3;
-}
+
 
 .copyright{
     color:#9097A3;
