@@ -1,3 +1,4 @@
+/* 변수지정  */
 :root {
   --primary-content-max-width: 1280px;
   --primary-content-min-width: 950px;
@@ -8,6 +9,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   color: var(--primary-font-color);
@@ -31,12 +33,15 @@ ul {
   margin: 0 auto;
 }
 
-/*1. 상단 메뉴 + 헤더 구성*/
+/*====================================================================*/
 
+/*1. 상단 메뉴 + 헤더 구성*/
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
+  /* 좌, 우 요소를 끝에 배치 균등한 공백을 부여 */
+  justify-content: space-between; 
   height: 63px;
   padding: 0 20px;
   background-color: #fff;
@@ -48,7 +53,6 @@ ul {
   height: 100%;
   display: block;
 }
-
 
 /* 왼쪽 메뉴 버튼 */
 .header .btn-menu {
@@ -63,21 +67,28 @@ ul {
   margin-right: 5px;
 }
 
+/* 마우스 포인터 가져갔을때, 적용되는 색상효과 */
 .header .btn-menu:hover {
   color: #07f;
 }
 
-/* 메인 배너 */
+.header .btn-login:hover {
+  color: #07f;
+}
+
+/*====================================================================*/
+
+/*2-1. 대표 배너 */
 section.main-banner {
   height: 498px;
-  background: url('../html/images/main_banner.jpg') no-repeat center center;
-  background-size : cover;
-  position: relative;
+  background: url('../html/images/main_banner.jpg') no-repeat center center; /* no-repeat : 이미지를 반복하지 않고 중앙에 배치 */
+  background-size : cover; /*배경 모두 채운다*/
+  position: relative; /*기준을 제공하는 쪽 (부모 역할)*/
 }
 
 section.main-banner .tabs-wrap {
   width: 100%;
-  position: absolute;
+  position: absolute; /*기준을 사용하는 쪽 (자식 역할)*/
   bottom: 0;
 }
 
@@ -101,21 +112,11 @@ section.main-banner .main-banner-tabs li:hover {
   background: rgba(0,0,0,0.5);
 }
 
-
 section.main-banner .main-banner-tabs li a {
   color: #fff;
 }
 
-/* 왼쪽 메뉴 버튼 */
-/* ㄱ
-/* 가운데 로고 - 절대 위치로 중앙 고정 */
-/* .logo a {
-  font-size: 20px;
-  font-weight: 900;
-  letter-spacing: 2px;
-  color: #000;
-  text-decoration: none;
-} */
+/*====================================================================*/
 
 /* 오른쪽 유틸 영역 */
 .right-mp {
@@ -457,29 +458,32 @@ section.main-banner .main-banner-tabs li a {
 }
 
 
-
+/*====================================================================*/
 /*4. footer 구성*/
 .main-footer {
-  background-color: #2b2b2b;
-  color: #ccc;
-  font-size: 13px;
-  /* padding: 0 40px 30px; */
+  background-color: #222426;
+  position: relative;
+  width: 100% ;
+  min-height: 270px;
+  margin-top: 200px;
+  text-align: left ;
 }
 
 /* 상단 공지 바 */
 .footer-notice {
+  height: 73px;
+  padding: 28px 0 0 40px;
+  border: 1px solid hsla(0, 0%, 100%, .1);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 24px 0; */
-  border-bottom: 1px solid #444;
 }
 
 .footer-notice > a {
   color: #fff;
-  font-weight: bold;
-  font-size: 14px;
+  font-weight: 700;
   text-decoration: none;
+  font-size: 12pt;
 }
 
 .footer-sns {
@@ -488,6 +492,10 @@ section.main-banner .main-banner-tabs li a {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.footer-sns li a .sns1 {
+  
 }
 
 .footer-sns li a {
