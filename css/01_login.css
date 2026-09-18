@@ -192,21 +192,17 @@ button {
     margin-top: 10px;
 }
 
-.find_my>button{
+.find_my>a{
     font-size: 14px;
+    color:gray
 }
 
-.find_my {
+.find_my{
     display: flex;
     column-gap: 12px;
 }
 
-.find_my>button {
-    background: none;
-    color: gray;
-}
-
-.find_my>button:hover {
+.find_my>a:hover {
     color:gray;
     text-decoration: underline;
 }
@@ -227,6 +223,11 @@ button {
 .security_center> div img{
     width:16px;
     height:16px;
+}
+
+.no_decoration{
+    text-decoration: none;
+    color:inherit;
 }
 
 .OR{
