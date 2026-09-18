@@ -123,6 +123,24 @@
     font-weight: 700;
 }
 
+/* 기본 상태 */
+.ico-nxnaver-prime {
+    display: block;
+}
+
+.ico-nxnaver-hover {
+    display: none;
+}
+
+/* 부모 링크에 마우스를 올린 상태 */
+.ico-nxnaver:hover .ico-nxnaver-prime {
+    display: none;
+}
+
+.ico-nxnaver:hover .ico-nxnaver-hover {
+    display: block;
+}
+
 .customer-service .site-nav {
     height: 55px;
     border-bottom: 1px solid #e5e8ed;
