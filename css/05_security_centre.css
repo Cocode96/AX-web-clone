@@ -188,6 +188,7 @@ h1 {
 .container {
     border: 1px solid #eee;
     background: #fff;
+    height: 100%;
 }
 
 .wrap1 {
@@ -244,7 +245,14 @@ h1 {
 }
    
 .service-info {
-    padding: 0 10% 0 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.info-group {
+    margin: 15px 0 15px 0;
 }
 
 .sign-in-btn-2 {
