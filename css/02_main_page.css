@@ -30,9 +30,6 @@
 /* 가운데 로고 - 절대 위치로 중앙 고정 */
 .logo {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .logo a {
