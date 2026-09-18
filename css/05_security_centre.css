@@ -62,10 +62,16 @@ body {
     color: var(--primary-font-color);
 }
 
+section {
+    margin-bottom: 60px;
+}
+
 /* 특정 폰트 사용시 */
 .special-font {
     font-family: var(--primary-font-special);
 }
+
+/* 스타일 세부 작업 */
 
 header {
     background: #fff;
@@ -131,6 +137,15 @@ header span {
     font-size: 0.8rem;
     border-radius: 999px;
     padding: 1px 5px 0 5px;
+    margin-left: 10px;
+}
+
+.new-label {
+    background: #ef5d5d;
+    color: #fff;
+    font-size: 0.8rem;
+    border-radius: 999px;
+    padding: 1.5px 5px 0 5px;
     margin-left: 10px;
 }
 
@@ -317,9 +332,15 @@ h3 {
 .sub-text {
     font-size: 0.9rem;
     color: #777d8a;
-    line-height: 2;
+    line-height: 1.6;
     word-break: keep-all;
     margin-top: 20px;
+}
+
+.parallel {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .container2:hover{
