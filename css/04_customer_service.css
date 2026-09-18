@@ -38,6 +38,8 @@
     text-decoration: none;
 }
 
+
+
 .customer-service button {
     padding: 0;
     border: 0;
@@ -139,6 +141,10 @@
 
 .ico-nxnaver:hover .ico-nxnaver-hover {
     display: block;
+}
+
+.ico-nxnaver .ico-nxnaver-hover {
+    display: none;
 }
 
 .customer-service .site-nav {
