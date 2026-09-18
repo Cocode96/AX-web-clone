@@ -20,7 +20,8 @@
 body {
     margin: 0;
     min-width: var(--primary-layout-min-size);
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 ul, ol, dl, dt, dd {
@@ -124,6 +125,15 @@ header span {
     visibility: hidden;
 }
 
+.reco-label {
+    background: #ef4eae;
+    color: #fff;
+    font-size: 0.8rem;
+    border-radius: 999px;
+    padding: 1px 5px 0 5px;
+    margin-left: 10px;
+}
+
 .gift-btn:hover .hidden-label {
     visibility: visible;
 }
@@ -136,6 +146,10 @@ header span {
     font-size: inherit;
     font-weight: 700;
     cursor: pointer;
+}
+
+.sign-in-icon {
+    display: none;
 }
 
 nav {
@@ -185,10 +199,29 @@ h1 {
     font-size: 1.3rem;
 }
 
-.container {
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container1 {
     border: 1px solid #eee;
     background: #fff;
     height: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.container2 {
+    border: 1px solid #eee;
+    background: #fff;
+    height: 100%;
+    padding: 25px;
+    border-radius: 5px;
 }
 
 .wrap1 {
@@ -197,15 +230,29 @@ h1 {
     padding: 0;
 }
 
+.wrap2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
 @media (max-width: 768px) {
+    .right-menu {
+        display: none;
+    }
+    .sign-in-icon {
+        display: inline-block;
+    }
     .wrap1 {
+        grid-template-columns: 1fr;
+    }
+    .wrap2 {
         grid-template-columns: 1fr;
     }
 }
 
 .secu-dashboard {
     padding: 25px;
-    border-right: 1px solid #eee;
     text-align: center;
     position: relative;
 }
@@ -251,10 +298,6 @@ h1 {
     height: 100%;
 }
 
-.info-group {
-    margin: 15px 0 15px 0;
-}
-
 .sign-in-btn-2 {
     border: 1px solid #17191d;
     background: #fff;
@@ -265,6 +308,28 @@ h1 {
 .sign-in-btn-2:hover {
     background: #777d8a;
     color: #fff;
+}
+
+.sub-title {
+    display: flex;
+}
+
+.sub-text {
+    font-size: 0.9rem;
+    color: #777d8a;
+    line-height: 2;
+    word-break: keep-all;
+    margin-top: 20px;
+}
+
+.container2:hover{
+    background: #0a74ff;
+    color: #eee;
+}
+
+.container2:hover .sub-text{
+    background: #0a74ff;
+    color: #eee;
 }
 
 footer {
