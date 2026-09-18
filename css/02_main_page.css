@@ -8,6 +8,8 @@
 /* 초기화 */
 * {
   box-sizing: border-box;
+  text-decoration: none;
+  /* list-style: none; */
 }
 
 body {
@@ -486,10 +488,9 @@ section.main-banner .main-banner-tabs li a {
 }
 
 .footer-notice > a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: 700;
-  text-decoration: none;
-  font-size: 12pt;
+  letter-spacing: -0.3px; /*글자와 글자 사이의 간격을 조절*/
 }
 
 .footer-sns {
@@ -500,32 +501,41 @@ section.main-banner .main-banner-tabs li a {
   padding: 0;
 }
 
-
-
 .footer-sns li a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
 }
 
-/* 메인 nav 1, 2 공통 */
-.footer-nav1,
+/* 메인 nav 1*/
+.footer-nav1 {
+  display: flex;
+  gap: 24px;
+  padding: 31px 96px 0px 40px;
+}
+
+.footer-nav1 a {
+  color: rgb(115, 120, 129);
+  /* text-decoration: none; */
+  font-size: 13px;
+}
+
+/* 메인 nav 2*/
 .footer-nav2 {
   display: flex;
   gap: 24px;
-  /* padding-top: 20px; */
+  padding: 14px 20px 13px 40px;
 }
 
-.footer-nav1 a,
 .footer-nav2 a {
-  color: #ccc;
-  text-decoration: none;
+  color: rgb(115, 120, 129);
+  /* text-decoration: none; */
   font-size: 13px;
 }
 
 .footer-nav1 a:hover,
 .footer-nav2 a:hover {
-  color: #fff;
+  color:#07f;
 }
 
 
@@ -534,10 +544,10 @@ section.main-banner .main-banner-tabs li a {
   font-style: normal;   /* address 기본 이탤릭 해제 */
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 6px;
+  /* gap: 4px 6px; */
   color: #888;
   line-height: 1.9;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .address a {
@@ -549,4 +559,10 @@ section.main-banner .main-banner-tabs li a {
   color: #ccc;
 }
 
+
+.footer-sns i {
+  height: 20px;
+  width: 20px;
+  color: rgb(115, 120, 129);
+}
 
