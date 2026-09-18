@@ -125,7 +125,13 @@ section.main-banner .main-banner-tabs li a {
   gap: 16px;
 }
 
-.signup-botton {
+.btn-orderpage {
+  font-size: 13px;
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-signup {
   font-size: 13px;
   color: #333;
   text-decoration: none;
@@ -494,9 +500,7 @@ section.main-banner .main-banner-tabs li a {
   padding: 0;
 }
 
-.footer-sns li a .sns1 {
-  
-}
+
 
 .footer-sns li a {
   color: #fff;
