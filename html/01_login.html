@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>넥슨 회원로그인</title>
-    <link rel="stylesheet" href="../css/01_login.css">
+    <link rel="stylesheet" href="01_login.css">
     <link rel="icon" href="../images/00_common_images/tmp1.png" type="image/png">
 </head>
 
 <body>
 
     <main class="main">
-        <div class="nexon"><img src="../images/01_login_images/nexonlogo.svg" alt="nexon_logo"></div>
+        <div class="nexon"><img src="../images/01_login/.svg" alt="nexon_logo"></div>
 
         <section>
             <div class="outersection">
                 <div class="uppersection">
                     <div class="login_tabs">
-                        <button type="button" class="login tab active" data-target="id_login"> 넥슨ID로그인 </button>
-                        <button type="button" class="login tab" data-target="tmp_login">일회용 로그인 </button>
-                        <button type="button" class="login tab" data-target="qr_login">QR로그인 </button>
+                        <input type="radio" name="serviceType" id="service-type-1" value="1" checked>
+                        <label for="service-type-1">넥슨ID로그인</label>
+
+                        <input type="radio" name="serviceType" id="service-type-2" value="2">
+                        <label for="service-type-2">일회용 로그인</label>
+
+                        <input type="radio" name="serviceType" id="service-type-3" value="3">
+                        <label for="service-type-3">QR로그인</label>
                     </div>
 
                     <div class="innersection">
@@ -34,43 +39,45 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="login_submit">
                     <input type="submit" value="넥슨 ID 로그인">
+                    
                 </div>
                 <div class="below_login">
                     <div class="find_my">
-                        <a href="#"> 회원가입</a>
-                        <a href="#"> 넥슨 ID 찾기</a>
-                        <a href="#"> 비밀번호 찾기</a>
+                        <button type="button"> 회원가입</button>
+                        <button type="button"> 넥슨 ID 찾기</button>
+                        <button type="button"> 비밀번호 찾기</button>
                     </div>
                     <div class="security_center">
-                        <a href="#"><img src="../images/01_login_images/asset 3.svg"> 보안센터</a>
+                        <button type="button">
+                            <img src="../images/01_login/asset.svg">
+                            <span>보안센터</span>
+                        </button>
                     </div>
                 </div>
                 <div class="OR">
-                    <span></span>
-                    <div> 또는</div>
-                    <span></span>
+                    <span>또는</span>
                 </div>
                 <div>
-                    <p class="altlog"> 다른 계정으로 로그인</p>
+                    <p class="altlog" style="font-size: 14px"> 다른 계정으로 로그인</p>
                 </div>
                 <div class="alt_account">
                     <div>
-                        <div class="facebook"><button><a><img src="../images/01_login_images/facebook.svg"
-                                        alt="facebook" width="56px" height="56px"></a></button></div>
-                        <div class="google"><button><a><img src="../images/01_login_images/google.svg" alt="google"
-                                        width="56px" height="56px"></a></div>
-                        <div class="naver"><button><a><img src="../images/01_login_images/naver.svg" alt="naver"
-                                        width="56px" height="56px"></a></div>
-                        <div class="apple"><button><a><img src="../images/01_login_images/apple.svg" alt="apple"
-                                        width="56px" height="56px"></a></div>
+                        <div class="facebook"><button type="button"><img src="../images/01_login/facebook.svg"
+                                        alt="facebook" width="56px" height="56px"></button></div>
+                        <div class="google"><button type="button"><img src="../images/01_login/google.svg" alt="google"
+                                        width="56px" height="56px"></div>
+                        <div class="naver"><button type="button"><img src="../images/01_login/naver.svg" alt="naver"
+                                        width="56px" height="56px"></div>
+                        <div class="apple"><button type="button"><img src="../images/01_login/apple.svg" alt="apple"
+                                        width="56px" height="56px"></div>
                     </div>
                 </div>
             </div>
         </section>
         <section>
-            <div class="promo"><img src="../images/01_login_images/promo.png"></div>
+            <a class="promo" href="#"><img src="../images/01_login/promo.png"></a>
         </section>
     </main>
     <footer>
