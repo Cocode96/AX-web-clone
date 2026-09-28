@@ -65,14 +65,14 @@ AX 1기 팀원 6명이 넥슨 웹사이트의 주요 화면을 나누어 HTML과
   </tr>
 </table>
 
-| 이름 | GitHub | 담당 페이지 | 주요 작업 | 코드 |
-| --- | --- | --- | --- | --- |
-| 원정린 | [justinweon](https://github.com/justinweon) | 로그인 | 로그인 유형 선택 UI, 아이디와 비밀번호 입력 영역, 소셜 로그인 버튼 배치, 보안센터 연결, 초기 공용 파일 구성 | [HTML](html/01_login.html) / [CSS](css/01_login.css) |
-| 장예지 | [yeji-jang](https://github.com/yeji-jang) | 메인 | 상단 메뉴, 대표 배너, 추천 게임과 전체 게임 카드, 로그인 영역, 다른 페이지로 이동하는 링크 | [HTML](html/02_main_page.html) / [CSS](css/02_main_page.css) |
-| 김민지 | [766min](https://github.com/766min) / [aoei766](https://github.com/aoei766) | 상품 목록 | 넥슨에센셜 스토어 소개 영역, 영상 배치, 카테고리 메뉴, 신상품과 인기 상품 카드, 화면 너비별 스타일 | [HTML](html/03_order_page.html) / [CSS](css/03_order_page.css) |
-| 양석호 | [Cocode96](https://github.com/Cocode96) | 고객센터 | 상단 메뉴, 사이드바, 로그인 안내, 게임별 문의 카드, hover 효과와 아이콘 스타일 | [HTML](html/04_customer_service.html) / [CSS](css/04_customer_service.css) |
-| 이승주 | [22S49](https://github.com/22S49) | 보안센터 | 보안 현황, 2단계 인증과 보안 서비스 카드, 보안 공지, 자주 묻는 질문, 모바일 너비 대응 | [HTML](html/05_security_centre.html) / [CSS](css/05_security_centre.css) |
-| 배경일 | [elfsai5-coder](https://github.com/elfsai5-coder) | 공지사항 | 헤더와 배너, 페이지 이동 메뉴, 공지 분류와 제목 및 날짜 목록, Grid 배치와 hover 효과 | [HTML](html/06_notice.html) / [CSS](css/06_notice.css) |
+| 이름 | GitHub | 담당 페이지 | 주요 작업 | 코드 | 회고 |
+| --- | --- | --- | --- | --- | --- |
+| 원정린 | [justinweon](https://github.com/justinweon) | 로그인 | 로그인 유형 선택 UI, 아이디와 비밀번호 입력 영역, 소셜 로그인 버튼 배치, 보안센터 연결, 초기 공용 파일 구성 | [HTML](html/01_login.html) / [CSS](css/01_login.css) | [읽기](docs/retrospectives/원정린.md) |
+| 장예지 | [yeji-jang](https://github.com/yeji-jang) | 메인 | 상단 메뉴, 대표 배너, 추천 게임과 전체 게임 카드, 로그인 영역, 다른 페이지로 이동하는 링크 | [HTML](html/02_main_page.html) / [CSS](css/02_main_page.css) | [읽기](docs/retrospectives/장예지.md) |
+| 김민지 | [766min](https://github.com/766min) / [aoei766](https://github.com/aoei766) | 상품 목록 | 넥슨에센셜 스토어 소개 영역, 영상 배치, 카테고리 메뉴, 신상품과 인기 상품 카드, 화면 너비별 스타일 | [HTML](html/03_order_page.html) / [CSS](css/03_order_page.css) | [읽기](docs/retrospectives/김민지.md) |
+| 양석호 | [Cocode96](https://github.com/Cocode96) | 고객센터 | 상단 메뉴, 사이드바, 로그인 안내, 게임별 문의 카드, hover 효과와 아이콘 스타일 | [HTML](html/04_customer_service.html) / [CSS](css/04_customer_service.css) | — |
+| 이승주 | [22S49](https://github.com/22S49) | 보안센터 | 보안 현황, 2단계 인증과 보안 서비스 카드, 보안 공지, 자주 묻는 질문, 모바일 너비 대응 | [HTML](html/05_security_centre.html) / [CSS](css/05_security_centre.css) | [읽기](docs/retrospectives/이승주.md) |
+| 배경일 | [elfsai5-coder](https://github.com/elfsai5-coder) | 공지사항 | 헤더와 배너, 페이지 이동 메뉴, 공지 분류와 제목 및 날짜 목록, Grid 배치와 hover 효과 | [HTML](html/06_notice.html) / [CSS](css/06_notice.css) | [읽기](docs/retrospectives/배경일.md) |
 
 전체 변경 과정은 [커밋 이력](https://github.com/Cocode96/AX-web-clone/commits/main/)과 [Pull Request 목록](https://github.com/Cocode96/AX-web-clone/pulls?q=is%3Apr)에서 확인할 수 있습니다.
 
@@ -124,7 +124,8 @@ AX-web-clone/
 ├─ css/                     # 페이지별 스타일, 시작 화면 스타일
 ├─ docs/
 │  ├─ readme/               # 프로젝트 배너와 실제 화면 캡처
-│  └─ retrospective.md      # 팀원별 프로젝트 회고
+│  ├─ retrospectives/       # 팀원별 개인 회고
+│  └─ retrospective.md      # 전체 회고 목록
 ├─ index.html               # 6개 페이지로 이동하는 시작 화면
 ├─ .gitignore
 └─ README.md
