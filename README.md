@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="#화면-미리보기">화면 미리보기</a> / <a href="#팀원과-역할-분담">팀 소개</a> / <a href="#협업-과정">협업 과정</a> / <a href="#팀-회고">팀 회고</a> / <a href="#실행-방법">실행 방법</a>
+  <a href="#화면-미리보기">화면 미리보기</a> / <a href="#팀원과-역할-분담">팀 소개</a> / <a href="#협업-과정">협업 과정</a> / <a href="#개인별-구현과-회고">개인별 구현과 회고</a> / <a href="#실행-방법">실행 방법</a>
 </p>
 
 ## 프로젝트 소개
@@ -65,11 +65,11 @@ AX 1기 팀원 6명이 넥슨 웹사이트의 주요 화면을 나누어 HTML과
   </tr>
 </table>
 
-| 이름 | GitHub | 담당 페이지 | 주요 작업 | 코드 | 회고 |
+| 이름 | GitHub | 담당 페이지 | 주요 작업 | 코드 | 구현과 회고 |
 | --- | --- | --- | --- | --- | --- |
 | 원정린 | [justinweon](https://github.com/justinweon) | 로그인 | 로그인 유형 선택 UI, 아이디와 비밀번호 입력 영역, 소셜 로그인 버튼 배치, 보안센터 연결, 초기 공용 파일 구성 | [HTML](html/01_login.html) / [CSS](css/01_login.css) | [읽기](docs/retrospectives/원정린.md) |
 | 장예지 | [yeji-jang](https://github.com/yeji-jang) | 메인 | 상단 메뉴, 대표 배너, 추천 게임과 전체 게임 카드, 로그인 영역, 다른 페이지로 이동하는 링크 | [HTML](html/02_main_page.html) / [CSS](css/02_main_page.css) | [읽기](docs/retrospectives/장예지.md) |
-| 김민지 | [766min](https://github.com/766min) / [aoei766](https://github.com/aoei766) | 상품 목록 | 넥슨에센셜 스토어 소개 영역, 영상 배치, 카테고리 메뉴, 신상품과 인기 상품 카드, 화면 너비별 스타일 | [HTML](html/03_order_page.html) / [CSS](css/03_order_page.css) | [읽기](docs/retrospectives/김민지.md) |
+| 김민지 | [766min](https://github.com/766min) / [aoei766](https://github.com/aoei766) | 상품 목록 | 넥슨에센셜 스토어 소개 영역, 영상 배치, 카테고리 메뉴, 특별판매와 인기 상품 카드, Flex/Grid 배치 | [HTML](html/03_order_page.html) / [CSS](css/03_order_page.css) | [읽기](docs/retrospectives/김민지.md) |
 | 양석호 | [Cocode96](https://github.com/Cocode96) | 고객센터 | 상단 메뉴, 사이드바, 로그인 안내, 게임별 문의 카드, hover 효과와 아이콘 스타일 | [HTML](html/04_customer_service.html) / [CSS](css/04_customer_service.css) | [읽기](docs/retrospectives/양석호.md) |
 | 이승주 | [22S49](https://github.com/22S49) | 보안센터 | 보안 현황, 2단계 인증과 보안 서비스 카드, 보안 공지, 자주 묻는 질문, 모바일 너비 대응 | [HTML](html/05_security_centre.html) / [CSS](css/05_security_centre.css) | [읽기](docs/retrospectives/이승주.md) |
 | 배경일 | [elfsai5-coder](https://github.com/elfsai5-coder) | 공지사항 | 헤더와 배너, 페이지 이동 메뉴, 공지 분류와 제목 및 날짜 목록, Grid 배치와 hover 효과 | [HTML](html/06_notice.html) / [CSS](css/06_notice.css) | [읽기](docs/retrospectives/배경일.md) |
@@ -86,7 +86,9 @@ AX 1기 팀원 6명이 넥슨 웹사이트의 주요 화면을 나누어 HTML과
 
 메인 페이지에서 로그인, 상품 목록, 고객센터, 보안센터, 공지사항으로 이동하도록 링크를 연결했습니다. 로그인 페이지에서도 보안센터로 이동할 수 있습니다.
 
-## 팀 회고
+## 개인별 구현과 회고
+
+각 문서에서 담당 화면, 구현 내용과 코드, 개인 회고를 확인할 수 있습니다.
 
 [원정린](docs/retrospectives/원정린.md) / [장예지](docs/retrospectives/장예지.md) / [김민지](docs/retrospectives/김민지.md) / [양석호](docs/retrospectives/양석호.md) / [이승주](docs/retrospectives/이승주.md) / [배경일](docs/retrospectives/배경일.md)
 
@@ -126,7 +128,7 @@ AX-web-clone/
 ├─ css/                     # 페이지별 스타일, 시작 화면 스타일
 ├─ docs/
 │  ├─ readme/               # 프로젝트 배너와 실제 화면 캡처
-│  └─ retrospectives/       # 팀원별 개인 회고
+│  └─ retrospectives/       # 팀원별 구현 소개와 개인 회고
 ├─ index.html               # 6개 페이지로 이동하는 시작 화면
 ├─ .gitignore
 └─ README.md
